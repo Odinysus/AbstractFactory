@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F733D7D51D798640001337E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D7D41D798640001337E8 /* main.m */; };
+		F733D7D81D798640001337E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D7D71D798640001337E8 /* AppDelegate.m */; };
+		F733D7DB1D798640001337E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D7DA1D798640001337E8 /* ViewController.m */; };
+		F733D7DE1D798640001337E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F733D7DC1D798640001337E8 /* Main.storyboard */; };
+		F733D7E01D798640001337E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F733D7DF1D798640001337E8 /* Assets.xcassets */; };
+		F733D7E31D798640001337E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F733D7E11D798640001337E8 /* LaunchScreen.storyboard */; };
+		F733D7FD1D79A140001337E8 /* AKnonVipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D7FA1D79A140001337E8 /* AKnonVipButton.m */; };
+		F733D7FE1D79A140001337E8 /* AKVipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D7FC1D79A140001337E8 /* AKVipButton.m */; };
+		F733D8041D79A288001337E8 /* AKnonVipAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D8031D79A288001337E8 /* AKnonVipAvatar.m */; };
+		F733D8111D79AD93001337E8 /* AKVipAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D8101D79AD93001337E8 /* AKVipAvatar.m */; };
+		F733D8161D79B46D001337E8 /* AKNonVipFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D8151D79B46C001337E8 /* AKNonVipFactory.m */; };
+		F733D8191D79B5A5001337E8 /* AKVipFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F733D8181D79B5A5001337E8 /* AKVipFactory.m */; };
+		F733D81B1D79C031001337E8 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = F733D81A1D79C031001337E8 /* avatar.png */; };
+		F733D81D1D79C249001337E8 /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = F733D81C1D79C249001337E8 /* vip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F733D7D01D798640001337E8 /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F733D7D41D798640001337E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F733D7D61D798640001337E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F733D7D71D798640001337E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F733D7D91D798640001337E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F733D7DA1D798640001337E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F733D7DD1D798640001337E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F733D7DF1D798640001337E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F733D7E21D798640001337E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F733D7E41D798640001337E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F733D7F91D79A140001337E8 /* AKnonVipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKnonVipButton.h; sourceTree = "<group>"; };
+		F733D7FA1D79A140001337E8 /* AKnonVipButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKnonVipButton.m; sourceTree = "<group>"; };
+		F733D7FB1D79A140001337E8 /* AKVipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVipButton.h; sourceTree = "<group>"; };
+		F733D7FC1D79A140001337E8 /* AKVipButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKVipButton.m; sourceTree = "<group>"; };
+		F733D8001D79A24A001337E8 /* ButtonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonProtocol.h; sourceTree = "<group>"; };
+		F733D8011D79A259001337E8 /* AvatarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarProtocol.h; sourceTree = "<group>"; };
+		F733D8021D79A288001337E8 /* AKnonVipAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKnonVipAvatar.h; sourceTree = "<group>"; };
+		F733D8031D79A288001337E8 /* AKnonVipAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKnonVipAvatar.m; sourceTree = "<group>"; };
+		F733D8051D79A296001337E8 /* AKVipAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVipAvatar.h; sourceTree = "<group>"; };
+		F733D8101D79AD93001337E8 /* AKVipAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKVipAvatar.m; sourceTree = "<group>"; };
+		F733D8131D79B437001337E8 /* AKVipFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVipFactoryProtocol.h; sourceTree = "<group>"; };
+		F733D8141D79B46C001337E8 /* AKNonVipFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKNonVipFactory.h; sourceTree = "<group>"; };
+		F733D8151D79B46C001337E8 /* AKNonVipFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKNonVipFactory.m; sourceTree = "<group>"; };
+		F733D8171D79B5A5001337E8 /* AKVipFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVipFactory.h; sourceTree = "<group>"; };
+		F733D8181D79B5A5001337E8 /* AKVipFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKVipFactory.m; sourceTree = "<group>"; };
+		F733D81A1D79C031001337E8 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		F733D81C1D79C249001337E8 /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F733D7CD1D798640001337E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F733D7C71D79863F001337E8 = {
+			isa = PBXGroup;
+			children = (
+				F733D7D21D798640001337E8 /* AbstractFactory */,
+				F733D7D11D798640001337E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F733D7D11D798640001337E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F733D7D01D798640001337E8 /* AbstractFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F733D7D21D798640001337E8 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F733D7D61D798640001337E8 /* AppDelegate.h */,
+				F733D7D71D798640001337E8 /* AppDelegate.m */,
+				F733D7D91D798640001337E8 /* ViewController.h */,
+				F733D7DA1D798640001337E8 /* ViewController.m */,
+				F733D7FF1D79A150001337E8 /* Avatar */,
+				F733D7F81D79A140001337E8 /* Button */,
+				F733D8121D79B437001337E8 /* Factory */,
+				F733D7DC1D798640001337E8 /* Main.storyboard */,
+				F733D81C1D79C249001337E8 /* vip.png */,
+				F733D81A1D79C031001337E8 /* avatar.png */,
+				F733D7DF1D798640001337E8 /* Assets.xcassets */,
+				F733D7E11D798640001337E8 /* LaunchScreen.storyboard */,
+				F733D7E41D798640001337E8 /* Info.plist */,
+				F733D7D31D798640001337E8 /* Supporting Files */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		F733D7D31D798640001337E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F733D7D41D798640001337E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F733D7F81D79A140001337E8 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F733D8001D79A24A001337E8 /* ButtonProtocol.h */,
+				F733D7F91D79A140001337E8 /* AKnonVipButton.h */,
+				F733D7FA1D79A140001337E8 /* AKnonVipButton.m */,
+				F733D7FB1D79A140001337E8 /* AKVipButton.h */,
+				F733D7FC1D79A140001337E8 /* AKVipButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		F733D7FF1D79A150001337E8 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				F733D8011D79A259001337E8 /* AvatarProtocol.h */,
+				F733D8021D79A288001337E8 /* AKnonVipAvatar.h */,
+				F733D8031D79A288001337E8 /* AKnonVipAvatar.m */,
+				F733D8051D79A296001337E8 /* AKVipAvatar.h */,
+				F733D8101D79AD93001337E8 /* AKVipAvatar.m */,
+			);
+			path = Avatar;
+			sourceTree = "<group>";
+		};
+		F733D8121D79B437001337E8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F733D8131D79B437001337E8 /* AKVipFactoryProtocol.h */,
+				F733D8141D79B46C001337E8 /* AKNonVipFactory.h */,
+				F733D8151D79B46C001337E8 /* AKNonVipFactory.m */,
+				F733D8171D79B5A5001337E8 /* AKVipFactory.h */,
+				F733D8181D79B5A5001337E8 /* AKVipFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F733D7CF1D798640001337E8 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F733D7E71D798640001337E8 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				F733D7CC1D798640001337E8 /* Sources */,
+				F733D7CD1D798640001337E8 /* Frameworks */,
+				F733D7CE1D798640001337E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = F733D7D01D798640001337E8 /* AbstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F733D7C81D79863F001337E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = akite;
+				TargetAttributes = {
+					F733D7CF1D798640001337E8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F733D7CB1D798640001337E8 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F733D7C71D79863F001337E8;
+			productRefGroup = F733D7D11D798640001337E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F733D7CF1D798640001337E8 /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F733D7CE1D798640001337E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F733D7E31D798640001337E8 /* LaunchScreen.storyboard in Resources */,
+				F733D81B1D79C031001337E8 /* avatar.png in Resources */,
+				F733D81D1D79C249001337E8 /* vip.png in Resources */,
+				F733D7E01D798640001337E8 /* Assets.xcassets in Resources */,
+				F733D7DE1D798640001337E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F733D7CC1D798640001337E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F733D7DB1D798640001337E8 /* ViewController.m in Sources */,
+				F733D7FD1D79A140001337E8 /* AKnonVipButton.m in Sources */,
+				F733D8161D79B46D001337E8 /* AKNonVipFactory.m in Sources */,
+				F733D8111D79AD93001337E8 /* AKVipAvatar.m in Sources */,
+				F733D7FE1D79A140001337E8 /* AKVipButton.m in Sources */,
+				F733D7D81D798640001337E8 /* AppDelegate.m in Sources */,
+				F733D8191D79B5A5001337E8 /* AKVipFactory.m in Sources */,
+				F733D8041D79A288001337E8 /* AKnonVipAvatar.m in Sources */,
+				F733D7D51D798640001337E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F733D7DC1D798640001337E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F733D7DD1D798640001337E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F733D7E11D798640001337E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F733D7E21D798640001337E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F733D7E51D798640001337E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F733D7E61D798640001337E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F733D7E81D798640001337E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akite.www.AbstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F733D7E91D798640001337E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akite.www.AbstractFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F733D7CB1D798640001337E8 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F733D7E51D798640001337E8 /* Debug */,
+				F733D7E61D798640001337E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F733D7E71D798640001337E8 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F733D7E81D798640001337E8 /* Debug */,
+				F733D7E91D798640001337E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F733D7C81D79863F001337E8 /* Project object */;
+}
